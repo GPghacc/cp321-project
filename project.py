@@ -85,6 +85,7 @@ compsci_occupation_dropdown_options
 
 # %%
 app = dash.Dash(__name__)
+server=app.server
 
 app.layout = html.Div(children=[
     html.H1("CP 321 – Data Visualization Project", style={'textAlign': 'center'}),
